@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import SpacemanCanvas from "./Pizza"; // Import the updated Pizza Canvas component
 
 
 export default function Hero() {

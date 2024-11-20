@@ -53,7 +53,7 @@ export default function Portfolio() {
           "AI-based snow-clearing efficiency analysis.",
           "Smart notifications based on weather forecasts."
         ],
-        image: "/assets/Screenshot 2024-11-20 at 3.07.04 AM.png",
+        image: " ",
         tags: ["Flask", "SQLAlchemy", "Google Maps API", "User Authentication", "Snow Removal", "Robotics"],
         link: "https://github.com/TheRealPatchAdams/Harold"
       }
@@ -62,7 +62,7 @@ export default function Portfolio() {
       {
         title: 'Dropped Pizza',
         description: 'A brief description of your second project',
-        image: '/assets/droppedpizzalogo.jpg',
+        image: '/api/placeholder/400/300',
         tags: ['Vue.js', 'Express', 'PostgreSQL'],
         link: '#'
       },
