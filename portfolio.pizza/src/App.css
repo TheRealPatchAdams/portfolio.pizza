@@ -1,0 +1,31 @@
+
+/* app.css */
+/* You can keep this file empty since we're using Tailwind CSS classes */
+/* Or add any custom styles that can't be achieved with Tailwind */
+
+.custom-underline {
+  @apply relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-indigo-600 after:transition-all after:duration-300 hover:after:w-full;
+}
+
+/* Animation for page transitions if needed */
+.page-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
